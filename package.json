@@ -13,7 +13,7 @@
   "author": "Alyona Stepanova",
   "license": "ISC",
   "dependencies": {
-    "loadash": "^1.0.0"
-  },
-  "devDependencies": {}
+    "loadash": "^1.0.0",
+    "readline-sync": "^1.4.10"
+  }
 }
