@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import welcomeUser from "../src/cli.js";
+import playerName from '../src/cli.js';
 
-welcomeUser();
+console.log(`Hello, ${playerName}!`);
