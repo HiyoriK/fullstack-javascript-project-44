@@ -30,3 +30,15 @@ Brain-even is a game about determining even and odd numbers. To win the user has
 * Brain-even. Win cut
 [![asciicast](https://asciinema.org/a/U4hPoCOVwlQQoeWEsnBwYTe2P.svg)](https://asciinema.org/a/U4hPoCOVwlQQoeWEsnBwYTe2P)
 
+
+2. Brain-calc
+
+Brain-calc is a simple calculator which adds, substracts and multiplies two random numbers. The operator is also random. To win the user has to give 3 correct answers in a row.
+
+* To choose Brain-calc run 'brain-calc' in the terminal.
+
+* Brain-calc. Lose cut
+[![asciicast](https://asciinema.org/a/JRtVIbCenpOpwx4HJVgqBLQc0.svg)](https://asciinema.org/a/JRtVIbCenpOpwx4HJVgqBLQc0)
+
+* Brain-calc. Win cut
+[![asciicast](https://asciinema.org/a/u5BB4tNDkqvCyMVAUygAkazoU.svg)](https://asciinema.org/a/u5BB4tNDkqvCyMVAUygAkazoU)
