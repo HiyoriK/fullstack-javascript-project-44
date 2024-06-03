@@ -13,7 +13,7 @@ const getProgression = (firstNumber, numberOfMembers, step) => {
 
 const startProgression = () => {
   const firstNumber = showRandomNumber(0, 100);
-  const numberOfMembers = showRandomNumber(5, 20);
+  const numberOfMembers = showRandomNumber(5, 18);
   const step = showRandomNumber(2, 10);
   const progression = getProgression(firstNumber, numberOfMembers, step);
   const index = showRandomNumber(0, numberOfMembers);
