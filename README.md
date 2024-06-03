@@ -50,7 +50,7 @@ Brain-calc is a simple calculator which adds, substracts and multiplies two numb
 
 3. Brain-gcd
 
-Brain-gcd is a game about finding tre greatest common devisor of two numbers.
+Brain-gcd is a game about finding the greatest common devisor of two numbers.
 
 * To choose Brain-gcd run 'brain-calc' in the terminal.
 
@@ -59,3 +59,16 @@ Brain-gcd is a game about finding tre greatest common devisor of two numbers.
 
 * Brain-gcd. Win cut
 [![asciicast](https://asciinema.org/a/aiSLKwZnOh1WW5Ow99V7jSCu2.svg)](https://asciinema.org/a/aiSLKwZnOh1WW5Ow99V7jSCu2)
+
+
+3. Brain-progression
+
+Brain-gcd is a game about finding an absent number in the progression.
+
+* To choose Brain-progression run 'brain-progression' in the terminal.
+
+* Brain-progression. Lose cut
+[![asciicast](https://asciinema.org/a/LDKz9nBM4YSknPfCMOs3b956a.svg)](https://asciinema.org/a/LDKz9nBM4YSknPfCMOs3b956a)
+
+* Brain-progression. Win cut
+[![asciicast](https://asciinema.org/a/G0XkRx3DfrSSKLNATnCgd31rl.svg)](https://asciinema.org/a/G0XkRx3DfrSSKLNATnCgd31rl)

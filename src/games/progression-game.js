@@ -3,13 +3,24 @@ import showRandomNumber from '../utils.js';
 
 const gameTask = 'What number is missing in the progression?';
 
-const startProgression = () => {
-//   const firstNumber = showRandomNumber(0, 100);
-//   const secondNumber = showRandomNumber(0, 100);
-//   const question = `${firstNumber} ${secondNumber}`;
+const getProgression = (firstNumber, numberOfMembers, step) => {
+  const numbers = [];
+  for (let i = 1; i <= (numberOfMembers - 1); i += 1) {
+    numbers.push(firstNumber + step * i);
+  }
+  return numbers;
+};
 
-//   const rightAnswer = function().toString();
-//   return [question, rightAnswer];
+const startProgression = () => {
+  const firstNumber = showRandomNumber(0, 100);
+  const numberOfMembers = showRandomNumber(5, 20);
+  const step = showRandomNumber(2, 10);
+  const progression = getProgression(firstNumber, numberOfMembers, step);
+  const index = showRandomNumber(0, numberOfMembers);
+  const rightAnswer = String(progression[index - 1]);
+  progression[index - 1] = '...';
+  const question = progression.join(' ');
+  return [question, rightAnswer];
 };
 
 const playProgressionGame = () => {
