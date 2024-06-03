@@ -1,7 +1,7 @@
 import playGame from '../game.js';
 import showRandomNumber from '../utils.js';
 
-const gameTask = 'Answer "yes" if the number is prime, otherwise answer "no".';
+const gameTask = 'Answer "yes" if given number is prime, otherwise answer "no".';
 
 const startPrime = () => {
   const isPrime = (num) => {
