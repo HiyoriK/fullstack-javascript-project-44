@@ -1,14 +1,20 @@
 import playGame from '../game.js';
 import showRandomNumber from '../utils.js';
 
-const gameTask = 'What number is missing in the progression?';
-
+const gameTask = 'Answer "yes" if the number is prime, otherwise answer "no".';
 
 const startPrime = () => {
-
-//   const rightAnswer = String(progression[index - 1]);
-  
-//   return [question, rightAnswer];
+  const isPrime = (num) => {
+    for (let i = 2; i < num; i += 1) {
+      if (num % i === 0) {
+        return false;
+      }
+    }
+    return true;
+  };
+  const question = showRandomNumber(2, 100);
+  const rightAnswer = (isPrime(question)) ? 'yes' : 'no';
+  return [question, rightAnswer];
 };
 
 const playPrimeGame = () => {
