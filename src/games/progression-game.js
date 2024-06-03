@@ -18,7 +18,7 @@ const startProgression = () => {
   const progression = getProgression(firstNumber, numberOfMembers, step);
   const index = showRandomNumber(0, numberOfMembers);
   const rightAnswer = String(progression[index - 1]);
-  progression[index - 1] = '...';
+  progression[index - 1] = '..';
   const question = progression.join(' ');
   return [question, rightAnswer];
 };
