@@ -9,7 +9,7 @@ const playGame = (roundCounter, task) => {
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
     if (rightAnswer !== userAnswer) {
-      console.log(`'${userAnswer}' is wrong asnwer ;(. The Correct answer is '${rightAnswer}'\nLet's try again!, ${playerName}`);
+      console.log(`'${userAnswer}' is wrong asnwer ;(. The Correct answer is '${rightAnswer}'\nLet's try again, ${playerName}!`);
       return;
     }
     console.log('Correct!');
