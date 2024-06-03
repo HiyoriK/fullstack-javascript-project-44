@@ -81,7 +81,7 @@ Brain-progression is a game about finding an absent number in the progression.
 
 5. Brain-prime
 
-Brain-prime is a game about definning if the given number is prime.
+Brain-prime is a game about defining if the given number is prime.
 
 * To choose Brain-prime run 'brain-prime' in the terminal.
 
