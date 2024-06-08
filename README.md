@@ -19,7 +19,7 @@ To install BrainGames, do the following:
 * run 'make install'
 * run 'sudo npm link', enter you terminal password
 
-[![asciicast](https://asciinema.org/a/2hmHjxk5iMnVspDR6QcIwaI0b.svg)](https://asciinema.org/a/2hmHjxk5iMnVspDR6QcIwaI0b)
+<a href="https://asciinema.org/a/2hmHjxk5iMnVspDR6QcIwaI0b" target="_blank"><img src="https://asciinema.org/a/2hmHjxk5iMnVspDR6QcIwaI0b.svg" /></a>
 
 ### Games
 
@@ -30,10 +30,10 @@ Brain-even is a game about determining even and odd numbers.
 * To choose Brain-even run 'brain-even' in the terminal.
 
 * Brain-even. Lose cut
-[![asciicast](https://asciinema.org/a/zKpmgUBPdGEn3syGExJMs4V1T.svg)](https://asciinema.org/a/zKpmgUBPdGEn3syGExJMs4V1T)
+<a href="https://asciinema.org/a/zKpmgUBPdGEn3syGExJMs4V1T" target="_blank"><img src="https://asciinema.org/a/zKpmgUBPdGEn3syGExJMs4V1T.svg" /></a>
 
 * Brain-even. Win cut
-[![asciicast](https://asciinema.org/a/U4hPoCOVwlQQoeWEsnBwYTe2P.svg)](https://asciinema.org/a/U4hPoCOVwlQQoeWEsnBwYTe2P)
+<a href="https://asciinema.org/a/U4hPoCOVwlQQoeWEsnBwYTe2P" target="_blank"><img src="https://asciinema.org/a/U4hPoCOVwlQQoeWEsnBwYTe2P.svg" /></a>
 
 
 
@@ -44,10 +44,10 @@ Brain-calc is a simple calculator which adds, substracts and multiplies two numb
 * To choose Brain-calc run 'brain-calc' in the terminal.
 
 * Brain-calc. Lose cut
-[![asciicast](https://asciinema.org/a/JRtVIbCenpOpwx4HJVgqBLQc0.svg)](https://asciinema.org/a/JRtVIbCenpOpwx4HJVgqBLQc0)
+<a href="https://asciinema.org/a/JRtVIbCenpOpwx4HJVgqBLQc0" target="_blank"><img src="https://asciinema.org/a/JRtVIbCenpOpwx4HJVgqBLQc0.svg" /></a>
 
 * Brain-calc. Win cut
-[![asciicast](https://asciinema.org/a/u5BB4tNDkqvCyMVAUygAkazoU.svg)](https://asciinema.org/a/u5BB4tNDkqvCyMVAUygAkazoU)
+<a href="https://asciinema.org/a/u5BB4tNDkqvCyMVAUygAkazoU" target="_blank"><img src="https://asciinema.org/a/u5BB4tNDkqvCyMVAUygAkazoU.svg" /></a>
 
 
 
@@ -58,10 +58,10 @@ Brain-gcd is a game about finding the greatest common devisor of two numbers.
 * To choose Brain-gcd run 'brain-gcd' in the terminal.
 
 * Brain-gcd. Lose cut
-[![asciicast](https://asciinema.org/a/mqy6SQ18UqNvBIL9oeR0gFjjA.svg)](https://asciinema.org/a/mqy6SQ18UqNvBIL9oeR0gFjjA)
+<a href="https://asciinema.org/a/mqy6SQ18UqNvBIL9oeR0gFjjA" target="_blank"><img src="https://asciinema.org/a/mqy6SQ18UqNvBIL9oeR0gFjjA.svg" /></a>
 
 * Brain-gcd. Win cut
-[![asciicast](https://asciinema.org/a/aiSLKwZnOh1WW5Ow99V7jSCu2.svg)](https://asciinema.org/a/aiSLKwZnOh1WW5Ow99V7jSCu2)
+<a href="https://asciinema.org/a/aiSLKwZnOh1WW5Ow99V7jSCu2" target="_blank"><img src="https://asciinema.org/a/aiSLKwZnOh1WW5Ow99V7jSCu2.svg" /></a>
 
 
 
@@ -72,10 +72,10 @@ Brain-progression is a game about finding an absent number in the progression.
 * To choose Brain-progression run 'brain-progression' in the terminal.
 
 * Brain-progression. Lose cut
-[![asciicast](https://asciinema.org/a/LDKz9nBM4YSknPfCMOs3b956a.svg)](https://asciinema.org/a/LDKz9nBM4YSknPfCMOs3b956a)
+<a href="https://asciinema.org/a/LDKz9nBM4YSknPfCMOs3b956a" target="_blank"><img src="https://asciinema.org/a/LDKz9nBM4YSknPfCMOs3b956a.svg" /></a>
 
 * Brain-progression. Win cut
-[![asciicast](https://asciinema.org/a/G0XkRx3DfrSSKLNATnCgd31rl.svg)](https://asciinema.org/a/G0XkRx3DfrSSKLNATnCgd31rl)
+<a href="https://asciinema.org/a/G0XkRx3DfrSSKLNATnCgd31rl" target="_blank"><img src="https://asciinema.org/a/G0XkRx3DfrSSKLNATnCgd31rl.svg" /></a>
 
 
 
@@ -86,7 +86,8 @@ Brain-prime is a game about defining if the given number is prime.
 * To choose Brain-prime run 'brain-prime' in the terminal.
 
 * Brain-prime. Lose cut
-[![asciicast](https://asciinema.org/a/DLchy37vx2UMumQX5VHu6tj15.svg)](https://asciinema.org/a/DLchy37vx2UMumQX5VHu6tj15)
+<a href="https://asciinema.org/a/DLchy37vx2UMumQX5VHu6tj15" target="_blank"><img src="https://asciinema.org/a/DLchy37vx2UMumQX5VHu6tj15.svg" /></a>
 
 * Brain-prime. Win cut
-[![asciicast](https://asciinema.org/a/10OWkVtFt97n6YNw5s0L6cbeh.svg)](https://asciinema.org/a/10OWkVtFt97n6YNw5s0L6cbeh)
+<a href="https://asciinema.org/a/10OWkVtFt97n6YNw5s0L6cbeh" target="_blank"><img src="https://asciinema.org/a/10OWkVtFt97n6YNw5s0L6cbeh.svg" /></a>
+

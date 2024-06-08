@@ -1,6 +1,3 @@
-const showRandomNumber = (min = 0, max = 100) => {
-  const result = Math.floor(Math.random() * (max - min) + min);
-  return result;
-};
+const showRandomNumber = (min = 0, max = 100) => Math.floor(min + Math.random() * (max - min + 1));
 
 export default showRandomNumber;
