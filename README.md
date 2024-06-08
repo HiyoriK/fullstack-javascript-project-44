@@ -4,6 +4,14 @@
 
 BrainGames is a set of 5 simple math games with random numbers. In each game, to win the user has to give 3 correct answers in a row.
 
+The games list
+* Brain-even
+* Brain-calc
+* Brain-gcd 
+* Brain-progression
+* Brain-prime
+
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/HiyoriK/fullstack-javascript-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/HiyoriK/fullstack-javascript-project-44/actions)
 
