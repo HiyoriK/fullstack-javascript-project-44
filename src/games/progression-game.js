@@ -13,8 +13,8 @@ const gameTask = 'What number is missing in the progression?';
 
 const startProgression = () => {
   const firstNumber = getRandomNumber(0, 100);
-  const numberOfMembers = getRandomNumber(5, 18);
-  const step = getRandomNumber(2, 6);
+  const numberOfMembers = getRandomNumber(5, 16);
+  const step = getRandomNumber(2, 5);
   const progression = getProgression(firstNumber, numberOfMembers, step);
   const index = getRandomNumber(0, numberOfMembers);
   const rightAnswer = String(progression[index - 1]);
