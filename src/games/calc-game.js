@@ -2,6 +2,7 @@ import playGame from '../game.js';
 import getRandomNumber from '../utils.js';
 
 let result = '';
+
 const getRandomOperator = (array) => array[Math.floor(Math.random() * array.length)];
 
 const calculation = (a, b, actionSign) => {
