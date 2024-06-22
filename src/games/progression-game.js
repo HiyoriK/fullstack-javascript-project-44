@@ -13,7 +13,7 @@ const gameTask = 'What number is missing in the progression?';
 
 const startProgression = () => {
   const firstNumber = getRandomNumber(0, 100);
-  const numberOfMembers = getRandomNumber(5, 16);
+  const numberOfMembers = getRandomNumber(5, 17);
   const step = getRandomNumber(2, 5);
   const progression = getProgression(firstNumber, numberOfMembers, step);
   const index = getRandomNumber(0, numberOfMembers);
