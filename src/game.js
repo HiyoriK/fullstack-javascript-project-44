@@ -1,11 +1,12 @@
 import readlineSync from 'readline-sync';
 import welcomePlayer from './cli.js';
 
-const userName = welcomePlayer();
+const roundsCount = 3;
 
 const playGame = (generateRound, task) => {
+  const userName = welcomePlayer();
   console.log(task);
-  for (let i = 0; i < 3; i += 1) {
+  for (let i = 0; i < roundsCount; i += 1) {
     const [question, rightAnswer] = generateRound();
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');

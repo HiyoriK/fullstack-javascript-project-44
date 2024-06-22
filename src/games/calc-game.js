@@ -1,29 +1,35 @@
 import playGame from '../game.js';
-import showRandomNumber from '../utils.js';
+import getRandomNumber from '../utils.js';
 
-const gameTask = 'What is the result of the expression?';
+let result = '';
+const getRandomOperator = (array) => array[Math.floor(Math.random() * array.length)];
 
-const startCalc = () => {
-  const firstNumber = showRandomNumber(0, 100);
-  const secondNumber = showRandomNumber(0, 100);
-  const operators = ['+', '-', '*'];
-  const getRandomOperator = operators[Math.floor(Math.random() * operators.length)];
-  const question = `${firstNumber} ${getRandomOperator} ${secondNumber}`;
-  let result = '';
-  switch (getRandomOperator) {
+const calculation = (a, b, actionSign) => {
+  switch (actionSign) {
     case '+':
-      result = firstNumber + secondNumber;
+      result = a + b;
       break;
     case '-':
-      result = firstNumber - secondNumber;
+      result = a - b;
       break;
     case '*':
-      result = firstNumber * secondNumber;
+      result = a * b;
       break;
     default:
       console.log('No such operator');
       break;
   }
+};
+
+const gameTask = 'What is the result of the expression?';
+
+const startCalc = () => {
+  const operators = ['+', '-', '*'];
+  const operator = getRandomOperator(operators);
+  const firstNumber = getRandomNumber(0, 100);
+  const secondNumber = getRandomNumber(0, 100);
+  const question = `${firstNumber} ${operator} ${secondNumber}`;
+  calculation(firstNumber, secondNumber, operator);
   const rightAnswer = result.toString();
   return [question, rightAnswer];
 };

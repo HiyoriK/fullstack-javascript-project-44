@@ -1,5 +1,5 @@
 import playGame from '../game.js';
-import showRandomNumber from '../utils.js';
+import getRandomNumber from '../utils.js';
 
 const getGreatCommonDevisor = (x, y) => {
   if (x === 0) return y;
@@ -9,10 +9,9 @@ const getGreatCommonDevisor = (x, y) => {
 const gameTask = 'Find the greatest common divisor of given numbers.';
 
 const startDevisor = () => {
-  const firstNumber = showRandomNumber(0, 100);
-  const secondNumber = showRandomNumber(0, 100);
+  const firstNumber = getRandomNumber(0, 100);
+  const secondNumber = getRandomNumber(0, 100);
   const question = `${firstNumber} ${secondNumber}`;
-
   const rightAnswer = getGreatCommonDevisor(firstNumber, secondNumber).toString();
   return [question, rightAnswer];
 };
