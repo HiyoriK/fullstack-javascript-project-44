@@ -1,37 +1,31 @@
 import playGame from '../game.js';
-import getRandomNumber from '../utils.js';
+import getRandomInRange from '../utils.js';
 
-let result = '';
-
-const getRandomOperator = (array) => array[Math.floor(Math.random() * array.length)];
-
-const calculation = (a, b, actionSign) => {
-  switch (actionSign) {
+const calculation = (a, b, operator) => {
+  switch (operator) {
     case '+':
-      result = a + b;
-      break;
+      return a + b;
     case '-':
-      result = a - b;
-      break;
+      return a - b;
     case '*':
-      result = a * b;
-      break;
+      return a * b;
     default:
-      console.log('No such operator');
-      break;
+      throw new Error(`Invalid operator - ${operator}`);
   }
 };
 
 const gameTask = 'What is the result of the expression?';
 
 const startCalc = () => {
-  const operators = ['+', '-', '*'];
-  const operator = getRandomOperator(operators);
-  const firstNumber = getRandomNumber(0, 100);
-  const secondNumber = getRandomNumber(0, 100);
+  const getRandomOperator = () => {
+    const operators = ['+', '-', '*'];
+    return operators[getRandomInRange(0, operators.length - 1)];
+  };
+  const operator = getRandomOperator();
+  const firstNumber = getRandomInRange(0, 100);
+  const secondNumber = getRandomInRange(0, 100);
   const question = `${firstNumber} ${operator} ${secondNumber}`;
-  calculation(firstNumber, secondNumber, operator);
-  const rightAnswer = result.toString();
+  const rightAnswer = String(calculation(firstNumber, secondNumber, operator));
   return [question, rightAnswer];
 };
 
