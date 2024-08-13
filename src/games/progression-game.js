@@ -11,8 +11,8 @@ const getProgression = (a, quantity, difference) => {
 
 const startProgression = () => {
   const firstNumber = getRandomInRange(1, 100);
-  const numberOfMembers = getRandomInRange(6, 19);
-  const step = getRandomInRange(1, 3);
+  const numberOfMembers = getRandomInRange(6, 15);
+  const step = getRandomInRange(2, 4);
   const progression = getProgression(firstNumber, numberOfMembers, step);
   const index = getRandomInRange(1, numberOfMembers);
   const rightAnswer = String(progression[index - 1]);
