@@ -1,7 +1,7 @@
 import readlineSync from 'readline-sync';
 import welcomePlayer from './cli.js';
 
-const roundsCount = 3;
+const roundsCount = 15;
 
 const playGame = (generateRound, task) => {
   const userName = welcomePlayer();

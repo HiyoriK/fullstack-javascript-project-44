@@ -1,5 +1,5 @@
 import playGame from '../game.js';
-import getRandomNumber from '../utils.js';
+import getRandomInRange from '../utils.js';
 
 const getProgression = (a, quantity, difference) => {
   const numbers = [];
@@ -9,14 +9,12 @@ const getProgression = (a, quantity, difference) => {
   return numbers;
 };
 
-const gameTask = 'What number is missing in the progression?';
-
 const startProgression = () => {
-  const firstNumber = getRandomNumber(0, 100);
-  const numberOfMembers = getRandomNumber(6, 15);
-  const step = getRandomNumber(2, 4);
+  const firstNumber = getRandomInRange(1, 100);
+  const numberOfMembers = getRandomInRange(6, 17);
+  const step = getRandomInRange(1, 3);
   const progression = getProgression(firstNumber, numberOfMembers, step);
-  const index = getRandomNumber(1, numberOfMembers);
+  const index = getRandomInRange(1, numberOfMembers);
   const rightAnswer = String(progression[index - 1]);
   progression[index - 1] = '..';
   const question = progression.join(' ');
@@ -24,6 +22,7 @@ const startProgression = () => {
 };
 
 const playProgressionGame = () => {
+  const gameTask = 'What number is missing in the progression?';
   playGame(startProgression, gameTask);
 };
 

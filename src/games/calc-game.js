@@ -14,8 +14,6 @@ const calculation = (a, b, operator) => {
   }
 };
 
-const gameTask = 'What is the result of the expression?';
-
 const startCalc = () => {
   const getRandomOperator = () => {
     const operators = ['+', '-', '*'];
@@ -30,6 +28,7 @@ const startCalc = () => {
 };
 
 const playCalcGame = () => {
+  const gameTask = 'What is the result of the expression?';
   playGame(startCalc, gameTask);
 };
 
